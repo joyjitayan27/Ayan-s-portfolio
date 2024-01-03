@@ -145,3 +145,63 @@ main {
     font-weight: 700;
     line-height: 30px;
 }
+
+/* What i do styles */
+.what-i-do {
+    margin-top: 130px;
+}
+
+.section-tittle {
+    align-items: center;
+}
+
+.section-tittle-description {
+    width: 909px;
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-left: 171px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    gap: 28px;
+}
+
+.skill {
+    width: 267px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+.skill-tittle {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    color: var(--Dark-03, #757575);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+}
